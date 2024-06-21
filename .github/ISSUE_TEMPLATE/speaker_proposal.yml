@@ -1,0 +1,55 @@
+name: 🎤 Speaker Proposal
+description: Create a proposal to be presented at events.
+labels: ["proposal"]
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Topic Description
+      description: describe your topic
+    validations:
+      required: true
+  - type: dropdown
+    id: speakinglanguage
+    attributes:
+      label: Speaking Language
+      description: Which language will you speak in your presentation ?
+      options:
+        - Cantonese
+        - English
+        - Mandarin
+      default: 1
+    validations:
+      required: true
+  - type: input
+    id: speakername
+    attributes:
+      label: Speaker Name
+      description: Your Name
+      placeholder: your name here.
+    validations:
+      required: true
+  - type: textarea
+    id: speakerbio
+    attributes:
+      label: Speaker Bio
+      description: Your speaker bio.
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Speaker Photo and Social Networks
+      description: (Optional) To show more your personal contact to the **public**, please provide your speaker photo and social networks, if applicable. 
+    validations:
+      required: false
+  - type: checkboxes
+    id: codeofconduct
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://opensource.hk/code-of-conduct/).
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+
