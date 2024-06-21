@@ -1,5 +1,6 @@
 name: 🎤 Speaker Proposal
 description: Create a proposal to be presented at events.
+title: "[Proposal]: "
 labels: ["proposal"]
 assignees:
   - sammyfung
