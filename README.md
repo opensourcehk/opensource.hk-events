@@ -1,6 +1,6 @@
 # Open Source HK Events
 
-**Proposing your topic**: Please [add an issue](https://github.com/opensourcehk/opensource.hk-events/issues/new)  using Speaker Proposal template.
+**Proposing your topic**: Please go to [issue](https://github.com/opensourcehk/opensource.hk-events/issues) and add a new issue  using "Speaker Proposal" template.
 
 ## 2024
 

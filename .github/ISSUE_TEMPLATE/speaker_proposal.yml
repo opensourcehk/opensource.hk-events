@@ -15,6 +15,17 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: eventtype
+    attributes:
+      label: Event Type
+      description: Which type of event do you prefer ? In Person or Online ?
+      options:
+        - In Person
+        - Online
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
     id: speakinglanguage
     attributes:
       label: Speaking Language
