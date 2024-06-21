@@ -1,7 +1,10 @@
 name: 🎤 Speaker Proposal
 description: Create a proposal to be presented at events.
 labels: ["proposal"]
-
+assignees:
+  - sammyfung
+  - DebugTsang
+  - nicholasyau
 body:
   - type: textarea
     id: description
